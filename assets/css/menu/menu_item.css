@@ -1,0 +1,7 @@
+.menu_item{
+    list-style: none;
+}
+
+.menu_item:last-child{
+    margin-right: 0;;
+}
