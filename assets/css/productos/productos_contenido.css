@@ -1,0 +1,7 @@
+.productos__contenido{
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: contenido; 
+    padding: 1rem 0rem;
+    justify-content: flex-start;
+}

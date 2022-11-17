@@ -1,0 +1,10 @@
+.productos__caja___codigo{
+    grid-area: card-link;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 0;
+    margin-top: 0.2rem;
+    color: var(--fuente-ceniza-oscuro);
+    order: 3;
+}

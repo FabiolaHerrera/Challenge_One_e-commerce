@@ -1,0 +1,9 @@
+.productos__caja__link{
+    grid-area: card-link;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 0;
+    color: var(--fuente-azul);
+    order: 3;
+}

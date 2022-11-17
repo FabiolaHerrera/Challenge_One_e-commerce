@@ -1,0 +1,15 @@
+.banner__div{
+    margin-left: 0rem;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__div{
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__div{
+        margin-left: 2rem;
+    }
+    }

@@ -1,0 +1,5 @@
+.productos__caja___imagen{
+        grid-area: card-imagen;
+        height: 100%;
+        width: 100%;
+}

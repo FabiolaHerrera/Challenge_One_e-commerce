@@ -1,0 +1,17 @@
+.menu__contactotitulo{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: var( --fuente-ceniza-oscuro);
+    padding: 0 2rem;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__contactotitulo{
+        padding: 0 2rem;
+    }
+}

@@ -1,0 +1,12 @@
+.productos__caja___precio{
+    grid-area: card-precio;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 0;
+    color: var(--fuente-ceniza-oscuro);
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}

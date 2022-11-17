@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0 0 0 ;    
+    align-self: stretch;
+    flex-grow: 0;
+    background: var(--background-blue_claro);
+}
+
+
+@media screen and (min-width: 768px) {
+    .menu{
+        flex-direction: row;
+        justify-content: center;        
+        gap: 6rem;
+    }
+}

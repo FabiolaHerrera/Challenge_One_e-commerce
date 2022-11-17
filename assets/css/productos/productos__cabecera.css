@@ -1,0 +1,9 @@
+.productos__cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 8vh;
+    padding: 0 1rem 0 0;
+
+}

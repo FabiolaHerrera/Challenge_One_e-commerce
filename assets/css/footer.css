@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--background-footer);
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.footer__social {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.footer__midia {
+    display: block;
+    width: 42px;
+    height: 42px;
+    margin: 1.5rem 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

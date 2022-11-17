@@ -1,0 +1,23 @@
+.menu__barra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .menu__barra{
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 6rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .menu__barra{
+        align-items: flex-start;
+    }
+}

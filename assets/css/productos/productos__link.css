@@ -1,0 +1,10 @@
+.productos__link{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding: 1rem 0;
+    color: var(--fuente-azul);
+    margin-bottom: 0.1rem;
+
+}

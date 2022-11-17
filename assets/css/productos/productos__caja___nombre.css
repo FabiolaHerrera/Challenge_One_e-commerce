@@ -1,0 +1,13 @@
+.productos__caja___nombre{
+    grid-area: card-nombre;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 1rem;
+    line-height: 0;
+    line-height: 0.5rem;
+    color: var(--fuente-ceniza-oscuro);
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}

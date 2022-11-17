@@ -1,0 +1,11 @@
+.productos__caja___datos{
+    border-bottom:  0.1rem solid var(--background-ceniza-medio);
+    display: flex;
+    flex-direction: column; 
+    height: 10vh;   
+}
+
+
+
+
+        

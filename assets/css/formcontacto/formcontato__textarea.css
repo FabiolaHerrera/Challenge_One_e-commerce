@@ -1,0 +1,16 @@
+
+.formcontato__textarea{
+    width: 80%;
+    max-width: 30rem;
+    height: 5rem;
+
+    background: var(--fuente-blanco);
+    border-radius: 0.3rem;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+    padding-left: 1rem;
+}

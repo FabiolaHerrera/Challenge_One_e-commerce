@@ -14,15 +14,10 @@
         <link href="./assets/css/cabecera.css" rel="stylesheet" />
         <link href="./assets/css/cabecera/cabecera__logo.css" rel="stylesheet" />
         <link href="./assets/css/cabecera/cabecera__btn-login.css" rel="stylesheet" />
-        <link href="./assets/css/cabecera/cabecera__lupa.css" rel="stylesheet" />
-        <link href="./assets/css/cabecera/cabecera__input.css" rel="stylesheet" />
-        <link href="./assets/css/cabecera/cabecera__div_buscar.css" rel="stylesheet" />
 
         <link href="./assets/css/banner.css" rel="stylesheet" />
         <link href="./assets/css/banner/banner__titulo.css" rel="stylesheet" /> 
         <link href="./assets/css/banner/banner_texto.css" rel="stylesheet" /> 
-        <link href="./assets/css/banner/banner__boton.css" rel="stylesheet" /> 
-        <link href="./assets/css/banner/banner__div.css" rel="stylesheet" /> 
 
         <link href="./assets/css/productos/productos__titulo.css" rel="stylesheet" />
         <link href="./assets/css/productos/productos__boton.css" rel="stylesheet" />
@@ -39,6 +34,9 @@
         <link href="./assets/css/productos/productos__caja___precio.css" rel="stylesheet"/>
         <link href="./assets/css/productos/productos__caja__link.css" rel="stylesheet"/>
         <link href="./assets/css/productos/productos__caja___datos.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__cabecera--fichaproductos.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___codigo.css" rel="stylesheet"/>
+    
 
         <link href="./assets/css/menu.css" rel="stylesheet"/>
         <link href="./assets/css/menu/menu__logo.css" rel="stylesheet"/>
@@ -61,27 +59,14 @@
     <body>
         <header class="cabecera">
             <img src="assets/img/Logo.png" alt="logo" class="cabecera__logo">
-            <div class="cabecera__div_buscar">
-                <input type="text" class="cabecera__input" placeholder="  ¿Qué deseas Buscar?">
-                <i class="fa fa-search cabecera__input__lupa" aria-hidden="true"></i>                
-            </div>
-            <button class="cabecera__btn-login boton">Login</button>
-            
-            <i class="fa fa-search cabecera__lupa"  aria-hidden="true"></i>
+            <i class="fa fa-search"  class="cabecera__lupa" aria-hidden="true"></i>
         </header>
-        <section class="banner">
-            <div class="banner__div">
-                <h2 class="banner__titulo">Febrero Promocional</h2>
-                <p class="banner_texto">Productos seleccionados con 33% de descuento</p>
-                <button class="banner__boton boton">Ver Consolas</button>
-            </div>
-        </section>
-
+   
         <section class="productos container">
-            <div class="productos__cabecera">
-                <h2 class="productos__titulo">Star Wars</h2>
-                <h2 class="productos__link">Ver todo <i class="fa fa-arrow-right"  aria-hidden="true"></i></h2>    
-            </div>
+            <div class="productos__cabecera--fichaproductos">
+                <h2 class="productos__titulo">Todos los Productos</h2>
+                <button class="productos__boton boton">Agregar Productos</button>
+                </div>
             <div class="productos__contenido">
                     <div class="productos__caja">
                         <img class="productos__caja___imagen" src="./assets/img/slack.png"></img>
@@ -89,7 +74,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -99,7 +84,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -109,7 +94,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +104,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -129,7 +114,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -139,7 +124,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -149,7 +134,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -159,7 +144,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -169,7 +154,7 @@
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
                                 <p class="productos__caja___precio" >$ 50.000 </p>
-                                <a href="#" class="productos__caja__link">Ver Producto</a>
+                                <p class="productos__caja___codigo" >#839ehkjw4</p>
                             </div>
                         </div>
                     </div>
@@ -200,6 +185,7 @@
                     <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" maxlength="300" name="mensaje" required placeholder="Mensaje"></textarea>
                     <button type="submit" id="btn-enviar" class="formcontato__boton boton">Enviar mensaje</button>
                 </form>
+
             </div>
         </section>    
         <section class="contacto container"></input>

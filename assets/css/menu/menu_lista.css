@@ -1,3 +1,16 @@
 .menu_lista{
-    display: flex;    
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;
+    padding: 0;
+    gap:0.51rem;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .menu_lista{
+        align-items: flex-start;
+        margin-top: 0.5rem;
+    }
 }

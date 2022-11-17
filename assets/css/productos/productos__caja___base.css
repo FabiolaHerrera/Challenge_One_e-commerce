@@ -1,0 +1,11 @@
+.productos__caja___base{
+    display: grid;
+    grid-area: card-base;
+    grid-row-gap: 0.5rem;
+    grid-template-areas: 
+    "card-nombre"
+    "card-precio"
+    "card-link";
+    grid-template-rows: 7vh auto;
+    padding: 0.5rem 0;
+}

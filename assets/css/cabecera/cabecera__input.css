@@ -1,0 +1,17 @@
+.cabecera__input{
+    width: 16rem;
+    height: 2rem;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 2rem;
+    background: var(--background-gris-medio);
+    color: var(--fuente-input);  
+    border: none;    
+    border-radius: 20%;
+}
+.cabecera__input__lupa{
+    background: var(--background-gris-medio);
+    width: 2rem;  
+}
+
+
