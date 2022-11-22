@@ -11,13 +11,12 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link href="./assets/css/bases.css" rel="stylesheet" />
 
+
         <link href="./assets/css/cabecera.css" rel="stylesheet" />
         <link href="./assets/css/cabecera/cabecera__logo.css" rel="stylesheet" />
-        <link href="./assets/css/cabecera/cabecera__btn-login.css" rel="stylesheet" />
-
-        <link href="./assets/css/banner.css" rel="stylesheet" />
-        <link href="./assets/css/banner/banner__titulo.css" rel="stylesheet" /> 
-        <link href="./assets/css/banner/banner_texto.css" rel="stylesheet" /> 
+        <link href="./assets/css/cabecera/cabecera__lupa.css" rel="stylesheet" />
+        <link href="./assets/css/cabecera/cabecera__input.css" rel="stylesheet" />
+        <link href="./assets/css/cabecera/cabecera__div_buscar.css" rel="stylesheet" />
 
         <link href="./assets/css/productos/productos__titulo.css" rel="stylesheet" />
         <link href="./assets/css/productos/productos__boton.css" rel="stylesheet" />
@@ -36,7 +35,8 @@
         <link href="./assets/css/productos/productos__caja___datos.css" rel="stylesheet"/>
         <link href="./assets/css/productos/productos__cabecera--fichaproductos.css" rel="stylesheet"/>
         <link href="./assets/css/productos/productos__caja___codigo.css" rel="stylesheet"/>
-    
+        <link href="./assets/css/productos/productos__caja___img_editar.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___img_eliminar.css" rel="stylesheet"/> 
 
         <link href="./assets/css/menu.css" rel="stylesheet"/>
         <link href="./assets/css/menu/menu__logo.css" rel="stylesheet"/>
@@ -54,14 +54,17 @@
 
         <link href="./assets/css/footer.css" rel="stylesheet"/>
         <link href="./assets/css/footer/footer_texto.css" rel="stylesheet"/>
-        
+               
     </head>
     <body>
         <header class="cabecera">
             <img src="assets/img/Logo.png" alt="logo" class="cabecera__logo">
-            <i class="fa fa-search"  class="cabecera__lupa" aria-hidden="true"></i>
+            <div class="cabecera__div_buscar">
+                <input type="text" class="cabecera__input" placeholder="  ¿Qué deseas Buscar?">
+                <i class="fa fa-search cabecera__input__lupa" aria-hidden="true"></i>                
+            </div>           
+            <i class="fa fa-search cabecera__lupa"  aria-hidden="true"></i>
         </header>
-   
         <section class="productos container">
             <div class="productos__cabecera--fichaproductos">
                 <h2 class="productos__titulo">Todos los Productos</h2>
@@ -69,7 +72,11 @@
                 </div>
             <div class="productos__contenido">
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/slack.png"></img>
+                        <div >
+                            <img class="productos__caja___imagen" src="./assets/img/slack.png"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -79,7 +86,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/whatsapp.png"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/whatsapp.png"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -89,7 +100,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/telegram.jpeg"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/telegram.jpeg"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>                            
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -99,7 +114,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/trello.jpg"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/trello.jpg"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>                            
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -109,7 +128,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/skype.png"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/skype.png"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -119,7 +142,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/fortnite.jpg"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/fortnite.jpg"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -129,7 +156,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/pubg.jpg"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/pubg.jpg"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -139,7 +170,11 @@
                         </div>
                     </div>
                     <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/cs-go.jpg"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/cs-go.jpg"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>
@@ -149,7 +184,11 @@
                         </div>
                     </div>
                      <div class="productos__caja">
-                        <img class="productos__caja___imagen" src="./assets/img/lol.jpg"></img>
+                        <div>
+                            <img class="productos__caja___imagen" src="./assets/img/lol.jpg"></img>
+                            <img class="productos__caja___img_eliminar" src="./assets/img/borrar.png"></img>
+                            <img class="productos__caja___img_editar" src="./assets/img/editar.png"></img>
+                        </div>
                         <div class="productos__caja___base">
                             <div class="productos__caja___datos">
                                 <h5 class="productos__caja___nombre">Slack</h5>

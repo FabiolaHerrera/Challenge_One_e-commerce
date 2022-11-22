@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Tienda</title>
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./assets/css/normalize.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link href="./assets/css/bases.css" rel="stylesheet" />
+
+        <link href="./assets/css/cabecera.css" rel="stylesheet" />
+        <link href="./assets/css/cabecera/cabecera__logo.css" rel="stylesheet" />
+        <link href="./assets/css/cabecera/cabecera__lupa.css" rel="stylesheet" />
+        <link href="./assets/css/cabecera/cabecera__input.css" rel="stylesheet" />
+        <link href="./assets/css/cabecera/cabecera__div_buscar.css" rel="stylesheet" />
+
+        <link href="./assets/css/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner__titulo.css" rel="stylesheet" /> 
+        <link href="./assets/css/banner/banner_texto.css" rel="stylesheet" /> 
+        <link href="./assets/css/banner/banner__boton.css" rel="stylesheet" /> 
+        <link href="./assets/css/banner/banner__div.css" rel="stylesheet" /> 
+
+        <link href="./assets/css/productos/productos__titulo.css" rel="stylesheet" />
+        <link href="./assets/css/productos/productos__boton.css" rel="stylesheet" />
+        <link href="./assets/css/productos/productos__link.css" rel="stylesheet" />
+        <link href="./assets/css/productos/productos__cabecera.css" rel="stylesheet" />
+
+        <link href="./assets/css/productos.css" rel="stylesheet"/>
+
+        <link href="./assets/css/productos/productos_contenido.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___imagen.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___base.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___nombre.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___precio.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja__link.css" rel="stylesheet"/>
+        <link href="./assets/css/productos/productos__caja___datos.css" rel="stylesheet"/>
+
+        <link href="./assets/css/menu.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu__logo.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu_item.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu_lista.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu_link.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu__barra.css" rel="stylesheet"/>
+
+        <link href="./assets/css/menu/menu__contacto.css" rel="stylesheet"/>
+        <link href="./assets/css/menu/menu__contactotitulo.css" rel="stylesheet"/>
+        <link href="./assets/css/formcontacto/formcontato__boton.css" rel="stylesheet"/>
+        <link href="./assets/css/formcontacto/formcontato__form.css" rel="stylesheet"/>
+        <link href="./assets/css/formcontacto/formcontato__input.css" rel="stylesheet"/>
+        <link href="./assets/css/formcontacto/formcontato__textarea.css" rel="stylesheet"/>
+
+        <link href="./assets/css/footer.css" rel="stylesheet"/>
+        <link href="./assets/css/footer/footer_texto.css" rel="stylesheet"/>
+        
+    </head>
+    <body>
+        <header class="cabecera">
+            <img src="assets/img/Logo.png" alt="logo" class="cabecera__logo">
+            <div class="cabecera__div_buscar">
+                <input type="text" class="cabecera__input" placeholder="  ¿Qué deseas Buscar?">
+                <i class="fa fa-search cabecera__input__lupa" aria-hidden="true"></i>                
+            </div>            
+            <i class="fa fa-search cabecera__lupa"  aria-hidden="true"></i>
+        </header>
+        <section class="login container">
+            <div class="menu__contacto">
+                
+                <form class="formcontato__form" name="form"  onsubmit='return validarLogin()'>
+                    <h2 class="login__titulo">Iniciar Sesión</h2>
+                    <input class="formcontato__input" type="text" name="txt_login" maxlength="50" required placeholder="Escriba su correo electrónico">
+                    <input class="formcontato__input" type="password" required name="txt_contrasena" placeholder="EScriba su contraseña">
+                    <button type="submit" id="btn-loginr" class="formcontato__boton boton"><a href="productos.html">Entrar</a></button>
+                </form>
+            </div>
+        </section>
+        <section class="menu container">
+            <div class="menu__barra">
+                <img src="assets/img/Logo.png" alt="logo" class="menu__logo">
+                <nav class="menu__nav">
+                    <ul class="menu_lista">
+                        <li class="menu_item"> <a class="menu_link activo" href="">Alura Geek</a></li>
+                        <li class="menu_item"> <a class="menu_link" href="">Quienes Somos</a></li>
+                        <li class="menu_item"> <a class="menu_link" href="">Políticas de Privacidad</a></li>
+                        <li class="menu_item"> <a class="menu_link" href="">Programa de Fidelidad </a></li>   
+                        <li class="menu_item"> <a class="menu_link" href="">Nuestras Tiendas </a></li>   
+                        <li class="menu_item"> <a class="menu_link" href="">Quiero ser Franquiciado </a></li>   
+                        <li class="menu_item"> <a class="menu_link" href="">Anúncie Aqui </a></li>   
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu__contacto">
+                <h2 class="menu__contactotitulo">Hable con Nosotros</h2>
+                <form class="formcontato__form" name="form"  onsubmit='return validar()'>
+                    <input class="formcontato__input" type="text" name="nombre" maxlength="50" required placeholder="Nombre y Apellido">
+                    <input class="formcontato__input" type="email" required name="email" placeholder="E-mail">
+                    <input class="formcontato__input" type="text" required maxlength="50" name="asunto" placeholder="Asunto">
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" maxlength="300" name="mensaje" required placeholder="Mensaje"></textarea>
+                    <button type="submit" id="btn-enviar" class="formcontato__boton boton">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>    
+        <section class="contacto container"></input>
+
+        </section>
+        <footer class="footer container">
+            <p class="footer_texto">Desarrollado por Fabiola Herrera - 2022</p>
+            <ul  class="footer__social">
+                <li><a href="#" class="footer__midia"><img src="assets/img/facebook.png"></a></li>
+                <li><a href="#" class="footer__midia"><img src="assets/img/twitter.png"></a></li>
+                <li><a href="#" class="footer__midia"><img src="assets/img/instagram.png"></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

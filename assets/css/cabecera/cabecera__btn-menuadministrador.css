@@ -1,0 +1,11 @@
+.cabecera__btn-menuadministrador{
+    box-sizing: border-box;
+    align-items: flex-end;
+    border: 1px solid var(--boton-azul);
+    color: var(--boton-azul);
+    background-color: var(--background-blanco);
+
+    padding: 0.5rem 1.5rem;
+    width: 13rem;
+    height: 3rem;
+}

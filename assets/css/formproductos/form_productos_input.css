@@ -1,4 +1,4 @@
-.formcontato__input{
+.form_productos_input{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -6,7 +6,7 @@
     gap: 1rem;
     font-size: 1rem;
     padding-left: 1rem;
-    width: 81%;
+    width: 80%;
     max-width: 29rem;
     height: 2rem;
 
@@ -17,11 +17,10 @@
     border: none;
 }
 
-
-.formcontato__input::placeholder, .formcontato__textarea::placeholder{
-    width: 14rem;
+.form_productos_input::placeholder, .form_productos_input::placeholder{
+    width: 200px;
     height: 60px;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 1rem;
     line-height: 1rem;
     display: flex;

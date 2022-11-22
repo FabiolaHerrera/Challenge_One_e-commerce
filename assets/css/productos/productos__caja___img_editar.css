@@ -1,0 +1,21 @@
+.productos__caja___img_editar{
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;    
+    top: -10.25rem;
+    left: 5.5rem;         
+    z-index: 1;            
+}
+
+
+@media screen and (min-width: 768px) {
+    .productos__caja___img_editar{
+        left: 8rem;                 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .productos__caja___img_editar{
+        left: 9rem;                     
+    }
+}
